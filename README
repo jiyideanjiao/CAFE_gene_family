@@ -7,6 +7,9 @@ cat hym_48_COGs.fas | awk -F "|" '{print$1" "$3}' > cafe.fas
 cat hym_288_COGs.fas | awk -F "|" '{print$1" "$3}' > cafe.fas
 cat spider5_COGs.fas | awk -F "|" '{print$1" "$3}' > cafe.fas
 cat spider71_COGs.fas | awk -F "|" '{print$1" "$3}' > cafe.fas
+cat yu30_COGs.fas | awk -F "|" '{print$1" "$3}' > cafe.fas
+cat yu33_COGs.fas | awk -F "|" '{print$1" "$3}' > cafe.fas
+
 
 #提取第一格和第三格的信息
 
