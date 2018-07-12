@@ -5,6 +5,8 @@ EOG805VVD（基因名称）SINV（参考基因组名称）Waur（物种名）XP_
 
 cat hym_48_COGs.fas | awk -F "|" '{print$1" "$3}' > cafe.fas
 cat hym_288_COGs.fas | awk -F "|" '{print$1" "$3}' > cafe.fas
+cat spider5_COGs.fas | awk -F "|" '{print$1" "$3}' > cafe.fas
+cat spider71_COGs.fas | awk -F "|" '{print$1" "$3}' > cafe.fas
 
 #提取第一格和第三格的信息
 
