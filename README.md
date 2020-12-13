@@ -49,22 +49,8 @@ sed -i 's/,/:/g' cafe.fas.u
 sed -i 's/,/:/g' result.csv
 ```
 - 对分析结果进行格式校正
-
+```
 python dic.py result.csv hamstr_count.csv
-#运行dic.py, 输入结果为result.csv, 输出结果为hamstr_count.csv
-
-
-将hamstr_count.csv的结果下载下来，后用excel对物种名字的header进行填充（竖向转置成横向）
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-
+```
+input: result.csv
+output: hamstr_count.csv
